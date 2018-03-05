@@ -1,4 +1,4 @@
-# This file is a part of Julia. License is MIT: https://julialang.org/license
+# This file was formerly a part of Julia. License is MIT: https://julialang.org/license
 
 # https://github.com/JuliaLang/julia/issues/4707
 

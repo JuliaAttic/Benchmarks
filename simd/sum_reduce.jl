@@ -1,4 +1,4 @@
-# This file is a part of Julia. License is MIT: https://julialang.org/license
+# This file was formerly a part of Julia. License is MIT: https://julialang.org/license
 
 function sum_reduce(x, istart, iend)
     s = zero(eltype(x))

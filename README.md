@@ -11,6 +11,10 @@ of placed here (see the BaseBenchmarks README for details).
 If you'd like to test the performance of your own package, consider using
 the [BenchmarkTools package](https://github.com/JuliaCI/BenchmarkTools.jl).
 
+For the micro benchmarks used to compare Julia's performance against
+other languages, see the
+[Microbenchmarks repository](https://github.com/JuliaLang/Microbenchmarks)
+
 Running the performance tests
 -----------------------------
 
@@ -27,9 +31,6 @@ Code Organization
 
 Tests generally go into one of the following suites:
 
-- `micro`: A set of micro-benchmarks commonly used to compare
-  programming languages; these results are shown on
-    [https://julialang.org/](https://julialang.org/).
 - `blas`, `lapack`: Performance tests for linear algebra tasks from
   low-level operations such as matrix multiplies to higher-level
   operations like eigenvalue problems.
